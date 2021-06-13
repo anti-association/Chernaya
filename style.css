@@ -13,7 +13,7 @@ a{
   text-decoration: none;
 }
 .everything{
-  max-width: 1163px;
+  max-width: 1160px;
 }
 
 /* ----HEADER---- */
@@ -22,13 +22,13 @@ a{
   justify-content: center;
 }
 .header_in{
-  width: 1165px;
+  /* width: 100%; */
+  width: 1160px;
   height: 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-
-  text-align: center;
+  /* text-align: center;  */
 }
 .header_logo{
   font-size: 30px;
@@ -53,7 +53,7 @@ a{
   /* margin-right: 30px; */
 }
 .shop_click:hover{
-  background-color: #EFE7E1;
+  background-color: #E3E3D9;
   color: black;
   border: 2px solid black;
 }
@@ -63,7 +63,7 @@ a{
   /* Center the text in the viewport. */
   position: absolute;
   margin: auto;
-  width: 100vw;
+  /* width: 100vw; */
   height: 80pt;
   top: -50vh;
   bottom: 0;
@@ -77,9 +77,6 @@ a{
   position: absolute;
   /* width: 30%; */
   display: inline-block;
-
-
-
   font-family: 'Raleway', sans-serif;
   font-weight: 900;
   font-size: 8em;
@@ -109,7 +106,7 @@ a{
 }
 .first{
     /* flex: 1 0 auto; */
-    /* min-height: calc(100vh - 300px); */
+    min-height: calc(100vh - 300px);
     display: flex;
     flex-wrap: wrap;
     /* justify-content: space-between; */
@@ -131,7 +128,7 @@ a{
   margin-right: 30px;
 }
 .but_1:hover{
-  background-color: #EFE7E1;
+  background-color: #E3E3D9;
   color: black;
 }
 .but_2{
@@ -140,7 +137,7 @@ a{
   color: white;
 }
 .but_2:hover{
-  background-color: #EFE7E1;
+  background-color: #E3E3D9;
   color: black;
 }
 .malevich{
@@ -158,8 +155,7 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-  table-layout: fixed;
-
+    table-layout: fixed;
 }
 .rectangle{
     width: 100px;

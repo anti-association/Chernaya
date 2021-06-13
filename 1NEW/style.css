@@ -1,0 +1,222 @@
+/* Explanation in JS tab */
+
+/* Cool font from Google Fonts! */
+@import url('https://fonts.googleapis.com/css?family=Raleway:900&display=swap');
+
+body {
+  margin: 0px;
+  height: 100vh;
+}
+a{
+  text-decoration: none;
+}
+
+/* ----HEADER---- */
+.header{
+  display: flex;
+  justify-content: center;
+}
+.header_in{
+  width: 1165px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  text-align: center;
+}
+.header_logo{
+  font-size: 30px;
+  font-family: 'Rokkit', sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.shop{
+  font-family:'Rokkitt', sans-serif;
+  font-weight: 600;
+  font-size: 20PX;
+}
+.shop_click{
+  padding: 11px 37px;
+  border-radius: 60px;
+  transition: .1s;
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+}
+.shop_click_one{
+  margin-right: 30px;
+
+}
+.shop_click:hover{
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+}
+
+
+
+
+
+/*  */
+
+
+
+
+#container {
+  /* Center the text in the viewport. */
+  position: absolute;
+  margin: auto;
+  width: 100vw;
+  height: 80pt;
+  top: 0;
+  bottom: 0;
+
+  /* This filter is a lot of the magic, try commenting it out to see how the morphing works! */
+  filter: url(#threshold) blur(0.6px);
+}
+
+/* Your average text styling */
+#text1, #text2 {
+  position: absolute;
+  width: 100%;
+  display: inline-block;
+
+  font-family: 'Raleway', sans-serif;
+  font-weight: 900;
+  font-size: 80pt;
+
+  text-align: center;
+
+  user-select: none;
+}
+@media screen and (max-width: 700px){
+  span.text2{
+    font-family: 'Courier New', Courier, monospace;
+  }
+}
+
+
+/* ---- FOOTER ---- */
+
+.first{
+    /* flex: 1 0 auto; */
+    min-height: calc(100vh - 300px);
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+
+}
+
+.footer_in{
+    width: 1165px;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  table-layout: fixed;
+
+}
+.rectangle{
+    width: 100px;
+    height: 4px;
+    background-color: azure;
+}
+.image{
+    width: 1165px;
+    margin: 0;
+}
+
+.left_footer{
+  display: flex;
+}
+
+.right_footer{
+  box-sizing: content-box;
+flex-wrap: nowrap;
+  display: flex;
+  transition: .2s;
+  height: 200px;
+  width: 240px;
+  border-top-left-radius: 300px;
+  border-top-right-radius: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+box-sizing: border-box;
+}
+
+.card{
+  width: 35px;
+  height: 35px;
+  background: url("C:/Users/kenni/YandexDisk/Web/Черная/254381-social-media/png/004-whatsapp.png") no-repeat;
+  margin-right: 10px;
+  margin-bottom: 3px;
+}
+
+.card:hover{
+  width: 35px;
+  height: 35px;
+  background:url("./254381-social-media/png/001-youtube.png") no-repeat;
+}
+
+
+
+
+
+/* .right_footer:hover{
+  height: 200px;
+  width:400px;
+  border-top-left-radius: 1000px;
+  border-top-right-radius: 1000px;
+  background-color: #c4c4c4;
+
+}*/
+.logo{
+  height:35px;
+  width: 35px;
+  margin-right: 10px;
+  margin-bottom: 3px;
+
+transition: .2s;
+}
+
+.logo:hover{
+  /* transform: scale(20), rotateZ('36'); */
+  transform: translateY(-12px);
+
+}
+
+.privat{
+  display: flex;
+  align-items: center;
+}
+.privat_text{
+  font-family:'Rokkitt', serif;
+  font-weight: 100;
+  font-size: 20PX;
+}
+.circle{
+  display: block;
+  width: 6px;
+  height: 6px;
+  border-radius: 3px;
+  background-color: black;
+  margin: 10px;
+}
+
+.icon{
+  width: 35px;
+  height: 35px;
+  margin-right: 15px;
+  transition: .2s;
+}
+.icon_one{
+  margin: 0;
+}
+.icon:hover{
+  /* transform: scale(1.2); */
+  transform: translateY(-5px);
+}

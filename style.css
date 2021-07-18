@@ -64,7 +64,7 @@ header ul li {
 header ul li a{
     position: relative  ;
     display: inline-block;
-    margin: 0 15px;
+    padding: 0 15px;
     color: #fff;
     text-decoration: none;
     transition: 0.2s;
@@ -124,7 +124,7 @@ background-color: #12171A;
 
 @media screen and (min-width: 950px) {
     header{
-    padding: 40px 140px;
+        padding: 40px 140px;
     }
 
     .first{

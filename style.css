@@ -112,7 +112,7 @@ background-color: #12171A;
 }
 .first h1{
     font-family: 'Playfair Display', serif;
-    width: 326px;
+    width: 274px;
     font-size: 52px;
     line-height: 0.8em;
     color: #fff;
@@ -130,7 +130,7 @@ background-color: #12171A;
     margin-bottom: 60px;
 }
 .first .stuff{
-    width: 326px;
+    width: 274px;
 }
 
 @media screen and (min-width: 950px) {

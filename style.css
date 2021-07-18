@@ -141,6 +141,9 @@ background-color: #12171A;
     header{
         padding: 40px 140px;
     }
+    header.sticky{
+        padding: 20px 140px ;
+    }
 
     .first{
     background: url(./1/background.png) no-repeat;
@@ -171,6 +174,9 @@ background-color: #12171A;
         line-height: 1.2em;
         color: #E7E8E8;
         margin-bottom: 60px;
+    }
+    .first .stuff{
+        padding: 0;
     }
 }
 

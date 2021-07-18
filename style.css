@@ -94,9 +94,17 @@ header ul li a:hover{
     height: 100vh;
     position: relative;
     min-height: 100vh;
-    background: url(./1/background_mobile.png) no-repeat;
-    background-size: auto;
+    background: url(./1/background_mobile.png) no-repeat ;
+    /* background-size: auto; */
     background-position: right;
+
+
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: auto;
+
+
     display: flex;
     align-items: center;
     padding-left: 45px;

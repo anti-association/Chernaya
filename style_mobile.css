@@ -5,6 +5,10 @@
         box-sizing: border-box;
         font-family: 'Poppins', sans-serif;
     }
+    a{
+        text-decoration: none;
+        color: black;
+    }
 
 h1{
     font-family: 'Playfair Display', serif;
@@ -48,32 +52,56 @@ header .logo{
     font-weight: 700;
     letter-spacing: 2px;
 }
-header ul{
+header.sticky .li{
+    /* header.sticky ul{ */
     position: relative;
     display: flex;
 
-    padding: 10px 10px;
+    padding: 10px 20px;
     border: 3px solid black;
+    /* background-color: #CEC0B6; */
+    background-color: rgba(242, 233, 228, .7);;
 }
-header ul li {
+/* header.sticky .li {
+    header.sticky  ul .li {
     position: relative;
     display: flex;
-}
-header ul li a{
-    position: relative  ;
+} */
+
+/* header.sticky  ul .li a{ */
+header.sticky  .li{
+    /* position: relative  ; */
     display: inline-block;
-    padding: 0 15px;
-    color: #fff;
+    /* padding: 0 30px; */
+    /* color: #fff; */
+    color: #000;
     text-decoration: none;
     transition: 0.2s;
 }
-header.sticky ul li a{
-    color:#111;
+header .li{
+    /* header ul .li a{ */
+    padding: 10px 10px;
+    border: 3px solid;
+    opacity: 0;
+    position: relative  ;
+    display: inline-block;
+    padding: 0;
+    color: #000;
+    text-decoration: none;
+    transition: 0.2s;
 }
 
-header ul li a:hover{
-    /* font-weight: 800; */
+header.sticky a{
+    /* header.sticky ul .li a{ */
+    color:#111;
+    opacity: 1;
+    text-decoration: none;
+
 }
+
+/* header ul .li a:hover{ */
+    /* font-weight: 800; */
+/* } */
 
 .heading{
     width: 100%;

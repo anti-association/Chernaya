@@ -168,7 +168,7 @@ button:hover{
     .second h3{
         /* width: 320px; */
         font-family: 'Lato', sans-serif;
-        font-weight: 700;
+        font-weight: 500;
         font-size: 18px;
         letter-spacing: 0.19em;
         line-height: 1.24em;
@@ -209,7 +209,7 @@ button:hover{
         /* padding: 0 60px; */
         font-size: 28px;
         font-family: 'Caveat', cursive;
-        margin: 60px 0;
+        margin: 60px 0 30px 0;
 
     }
 

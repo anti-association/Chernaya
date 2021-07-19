@@ -324,3 +324,13 @@ h3{
 
 
 }
+
+@media screen and (max-height: 670px) {
+    .first .stuff{
+        width: 274px;
+        /* padding-top: 250px; */
+        /* padding-top: 40vh; */
+        padding-top: 25vh;
+    }
+
+}

@@ -184,7 +184,7 @@ button:hover{
         letter-spacing: 0.19em;
         line-height: 1.24em;
         text-align: justify;
-        color: #333;
+        /* color: #333; */
         color: grey;
     }
     .second .left{
@@ -282,7 +282,9 @@ h3{
     letter-spacing: 0.19em;
     line-height: 1.24em;
     text-align: justify;
-    color: #474645;
+    /* color: #474645; */
+    color: grey;
+
 }
 
 

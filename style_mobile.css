@@ -300,10 +300,18 @@ button:hover{
 }
 .third .stuff{
     /* width: 1160px; */
-    width: 320px;
+    /* width: 320px; */
     margin: auto;
-    padding-top: 105px;
-    padding-bottom: 105px;
+    /* padding-top: 105px;
+    padding-bottom: 105px; */
+
+    padding:105px 60px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-width: 324px;
+    height: auto;
+    margin: auto;
 }
 /* .third h1{ */
 .third h1{
@@ -331,24 +339,31 @@ h3{
 
 
 
-
-
-
-
 /* ---==-=--=-=-=- */
 .fourth{
     width: 100%;
     height: auto;
 }
 .fourth .stuff{
-    padding:60px 0;
+    /* padding:60px 0; */
     /* margin: 0; */
+    /* display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 324px; */
+    /* height: auto;
+    margin: auto; */
+
+
+    padding:105px 60px;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 324px;
+    min-width: 324px;
     height: auto;
     margin: auto;
+
+
 }
 .fourth h2{
     font-family: 'Playfair Display', serif;
@@ -370,43 +385,60 @@ h3{
     /* color: #333; */
     color: grey;
 }
-.fourth .left{
+/* .fourth .left{
     width: 320px;
-}
+} */
 .fourth img{
     width: 320px;
     margin: 60px 0;
 
 }
-.fourth .right{
+/* .fourth .right{
     width: 320px;
+} */
+
+.fourth img{
+    /* max-width: 320px; */
+    width: calc(100vw - 120px);
+    margin: 60px auto;
 }
 
-img{
-    margin: 0;
-    /* width: 530px; */
-    height: auto;
-    /* margin-bottom: 56px; */
-}
 
 .fourth .rectangle{
-    width: 324px;
+    /* width: 324px;
     height: auto;
     height: 170px;
     padding: 0 60px;
     font-size: 20px;
     font-family: 'Caveat', cursive;
-    margin: 60px 0 30px 0;
+    margin: 60px 0 30px 0; */
+
+    font-size: 28px;
+    font-family: 'Caveat', cursive;
+    margin: 60px 0 45px 0;
+
+    /* border: 3px solid #808080; */
 
 }
-
 .fourth .rectangle::after{
     content: " ";
     position: absolute;
     transform: translate3d(15px, 10px, 0);
     border: 3px solid #808080;
-    width: 324px;
-    height: 170px;
+    /* width: 324px;
+    height: 170px; */
+    width: calc(100vw - 120px);
+    height: 160px;
+}
+@media screen and (max-width: 501px){
+    .fourth .rectangle::after{
+        height: 180px;
+    }
+}
+@media screen and (max-width: 466px){
+    .fourth .rectangle::after{
+        height: 200px;
+    }
 }
 
 

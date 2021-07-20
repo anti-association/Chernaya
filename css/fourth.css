@@ -37,7 +37,7 @@ margin-top: 60px;
 }
 .fourth .rectangle{
     margin-top: 60px;
-    padding: 0 60px;
+    padding: 20px 45px;
     font-size: 28px;
     font-family: 'Caveat', cursive;
     width: 530px;
@@ -125,7 +125,23 @@ margin-top: 60px;
             height: 200px;
         }
     }
+    @media screen and (max-width: 404px){
+        .fourth .rectangle::after{
+            height: 240px;
+        }
+    }
 
+    @media screen and (max-width: 374px){
+        .fourth .rectangle::after{
+            height: 260px;
+        }
+    }
+
+    @media screen and (max-width: 367px){
+        .fourth .rectangle::after{
+            height: 300px;
+        }
+    }
 
 
 

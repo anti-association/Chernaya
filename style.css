@@ -304,6 +304,17 @@ margin-top: 60px;
     height: auto;
 
 }
+
+.fifth .stuff{
+    margin: auto;
+    width: 1160px;
+    display: flex;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    padding: 120px 0;
+}
+
 .fifth .left{
     background-color: white;
     width: 390px;
@@ -322,15 +333,7 @@ margin-top: 60px;
     padding:60px 40px;
 
 }
-.fifth .stuff{
-    margin: auto;
-    width: 1160px;
-    display: flex;
-    /* display: flex; */
-    justify-content: center;
-    align-items: center;
-    padding: 120px 0;
-}
+
 
 .get_the_list{
     background-color: #4A9AC7;

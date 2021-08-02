@@ -18,7 +18,7 @@ a{
 }
 .fourth h3{
     width: 530px;
-margin-top: 60px;
+    margin-top: 60px;
 }
 .fourth h1{
     font-size: 46px;
@@ -30,7 +30,7 @@ margin-top: 60px;
     width: 1160px;
     display: flex;
     justify-content: space-between;
-    padding-top: 270px;
+    padding-top: 120px;
     width: 1160px;
     margin: auto;
     padding-bottom: 60px;
